@@ -4,6 +4,8 @@ Coil winding machine with integrated turn counter.
 The main body of the coil winder is made primarly of 3D-printed parts and some of the shelf hardware.
 The turn counter is based on a Rapberry Pi Pico reading two mechanical switches witch are actuated by a cam on the handle. A 2x16 character LCD screen is used to display the turn number and other information.
 
+<img width="4000" height="2143" alt="Spulenwickler v9" src="https://github.com/user-attachments/assets/267dd3f4-6a60-4679-8533-b6063d594031" />
+
 # PCB
 The PCB can be ordered using the gerber and drill files. The neccessary files are bundled in a .zip for your convenience. This .zip can directly be used to order from manufacturers such as JLC PCB (tested) or PCB Way.
 You can use the [bill of materials](empty link) or just look on the backside of the board to populate it. It is recommended to not only solder the LCD on with the pin header but also screw it down using washer of the appropriate thickness for your display and pin header. Stl files for the washers are not included, but i guess anyone can do their own from cylinders in the slicer if they really need to.
@@ -32,7 +34,7 @@ Press the bearings into place, cut the threaded rod to the length you desire and
 
 There are two versions of the handle, R and L. The ony differnce is the direction in which the ratchet allows movement, use whatever you prefer.
 Assemble the handle using the M6x40 screw and screw it onto the threaded rod. make sure to push the micro-switch rollers and clicker out of the way while mounting the handle, so they can properly engage.
-If your handle is not thight enough, you can fix it with the <= 3mm metal pin after drilling through the threaded rod in line with the hole in the handle. I do not recommend glueing on the handle, because the clicker is hard to exchange with a mounted handle and could need maintenace after some time.
+If your handle is not thight enough, you can fix it with the <= 3mm metal pin after drilling through the threaded rod in line with the hole in the handle. If the handle slips on the threaded rod, the turn counting will be wrong! I do not recommend glueing on the handle, because the clicker is hard to exchange with a mounted handle and could need maintenace after some time.
 
 Mount the carrier on the non-handle side of the threaded rod in your desired location. Drill through the threaded rod (3 mm - 3.5 mm) in line with the carriers mounting hole and fix it in place using the M3 screw and nut. One side of the carrier has a fitting recess for the hex nut. Depending on the coil you plan to wind you can put different carrier extensions on the carrier, a square one and a Cone are supplied with the .stl files. The other side of the coil carrier extension is pushed onto the threade rod after the coil carrier / bobbin you intend to wind onto. It is tightened against the coil by another M10 nut.
 
