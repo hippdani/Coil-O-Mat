@@ -30,6 +30,7 @@ For assembly first print the .stl files from the 3Dprints folder. It is recommen
 
 Press the bearings into place, cut the threaded rod to the length you desire and feed it through the bearings. Fix it with a M10 nut on both sides. Do not apply excessive force when tightening those nuts, otherwise the threaded rod will not rotate freely. Mount the clicker with two M5 screws, mount the micro switches onto the clicker and solder on wires. These wires need to be connected to J1 for one switch and J2 for the other switch. Changing which switch is connected to which port changes the direction for counting up / counting down. 
 
+There are two versions of the handle, R and L. The ony differnce is the direction in which the ratchet allows movement, use whatever you prefer.
 Assemble the handle using the M6x40 screw and screw it onto the threaded rod. make sure to push the micro-switch rollers and clicker out of the way while mounting the handle, so they can properly engage.
 If your handle is not thight enough, you can fix it with the <= 3mm metal pin after drilling through the threaded rod in line with the hole in the handle. I do not recommend glueing on the handle, because the clicker is hard to exchange with a mounted handle and could need maintenace after some time.
 
