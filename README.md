@@ -33,9 +33,10 @@ Press the bearings into place, cut the threaded rod to the length you desire and
 Assemble the handle using the M6x40 screw and screw it onto the threaded rod. make sure to push the micro-switch rollers and clicker out of the way while mounting the handle, so they can properly engage.
 If your handle is not thight enough, you can fix it with the <= 3mm metal pin after drilling through the threaded rod in line with the hole in the handle. I do not recommend glueing on the handle, because the clicker is hard to exchange with a mounted handle and could need maintenace after some time.
 
+Mount the carrier on the non-handle side of the threaded rod in your desired location. Drill through the threaded rod (3 mm - 3.5 mm) in line with the carriers mounting hole and fix it in place using the M3 screw and nut. One side of the carrier has a fitting recess for the hex nut. Depending on the coil you plan to wind you can put different carrier extensions on the carrier, a square one and a Cone are supplied with the .stl files. The other side of the coil carrier extension is pushed onto the threade rod after the coil carrier / bobbin you intend to wind onto. It is tightened against the coil by another M10 nut.
 
+Happy winding!
 
-
-#Software
+# Software
 The software is developed using the Arduino IDE with [Earl Philhower's Pi Pico Core](https://arduino-pico.readthedocs.io/en/latest/). You need to install this to compile the code provided in the [code folder](empty link).
-Alternatively, you can try to put the .uf2 file onto the Pi Pico, just like pasting a file onto a flash drive. The .uf2 file contains the compiled code.
+Alternatively, you can put the .uf2 file onto the Pi Pico, just like pasting a file onto a flash drive. The .uf2 file contains the compiled code.
